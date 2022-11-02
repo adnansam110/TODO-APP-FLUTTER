@@ -17,7 +17,6 @@ class _TodosState extends State<Todos> {
     double width = MediaQuery.of(context).size.width;
     String inputValue = '';
     bool todosSelected = todos.any((todo) => todo["isSelected"]);
-    print("Todo is selected $todosSelected");
     Color getColor(Set<MaterialState> states) {
       const Set<MaterialState> interactiveStates = <MaterialState>{
         MaterialState.pressed,
