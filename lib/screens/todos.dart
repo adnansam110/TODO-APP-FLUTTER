@@ -42,8 +42,9 @@ class _TodosState extends State<Todos> {
                   padding: const EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 0.0),
                   child: AlertDialog(
                     title: Center(
-                        child: Text(
-                            todosSelected ? "Delete Todo" : 'Add A New Todo!')),
+                      child: Text(
+                          todosSelected ? "Delete Todo" : 'Add A New Todo!'),
+                    ),
                     content: Text(
                       todosSelected
                           ? "Are you sure you want to delete this Todo?"

@@ -9,7 +9,7 @@ void main() {
     child: MaterialApp(
       initialRoute: '/',
       routes: {
-        '/': (context) => Todos(),
+        '/': (context) => const Todos(),
       },
     ),
   ));
